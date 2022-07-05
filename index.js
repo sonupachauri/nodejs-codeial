@@ -5,6 +5,7 @@ const port=8000;
 // use of express router
 
 app.use('/',require('./routes/index'));
+app.use('/',require('./routes/users'));
 
 
 app.listen(port,function(err){
